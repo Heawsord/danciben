@@ -7,7 +7,7 @@
         android:id="@+id/show"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:divider="#00CCCC"
-        android:dividerHeight="3dp">
+        android:divider="#000000"
+        android:dividerHeight="1dp">
     </ListView>
 </LinearLayout>

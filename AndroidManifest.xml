@@ -22,6 +22,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity 
+            android:name=".Result"
+            android:label="@string/result">
+            
+        </activity>
+        <activity 
+            android:name=".EditItem"
+            android:label="@string/result">
+        </activity>
+        <provider 
+            android:name="DictProvider"
+            android:authorities="com.example.danciben">
+            
+        </provider>
     </application>
 
 </manifest>

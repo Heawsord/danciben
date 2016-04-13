@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
         actionBar.setDisplayShowHomeEnabled(false);
         actionBar.hide();
          
-        contentResolver=getContentResolver();
+        contentResolver=this.getContentResolver();
         insert=(Button)findViewById(R.id.insert);
         search=(Button)findViewById(R.id.search);
         delete=(Button)findViewById(R.id.delete);
@@ -165,6 +165,10 @@ public class MainActivity extends Activity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
+    }
+    
+    private void setName() {
+    	
     }
  
 }

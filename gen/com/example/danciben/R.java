@@ -58,15 +58,16 @@ public final class R {
         public static final int main=0x7f080000;
     }
     public static final class string {
-        public static final int action_settings=0x7f060001;
+        public static final int action_settings=0x7f060002;
         public static final int app_name=0x7f060000;
-        public static final int clear=0x7f060008;
-        public static final int detail=0x7f060003;
-        public static final int explain=0x7f060006;
-        public static final int positive=0x7f060007;
-        public static final int search=0x7f060004;
-        public static final int word=0x7f060002;
-        public static final int words=0x7f060005;
+        public static final int clear=0x7f060009;
+        public static final int detail=0x7f060004;
+        public static final int explain=0x7f060007;
+        public static final int positive=0x7f060008;
+        public static final int result=0x7f060001;
+        public static final int search=0x7f060005;
+        public static final int word=0x7f060003;
+        public static final int words=0x7f060006;
     }
     public static final class style {
         /** 
